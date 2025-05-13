@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daunscape.tech/sitemap.xml.gz
