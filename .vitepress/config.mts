@@ -14,7 +14,10 @@ export default defineConfig({
     sidebar: [
       {
         text: "Information",
-        items: [{ text: "About", link: "/about" }],
+        items: [
+          { text: "About", link: "/about" },
+          { text: "What We Do", link: "/works" },
+        ],
       },
       {
         text: "Infrastructure",
