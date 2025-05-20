@@ -2448,7 +2448,7 @@ section,
   font-size: 18px;
 }
 
-.pricing .plan-features ul li i.bi-check-circle-fill {
+.pricing .plan-features ul li i.bi {
   color: var(--accent-color);
 }
 

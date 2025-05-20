@@ -6,8 +6,11 @@
   <meta name="keywords" content="" />
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="{{ 'assets/img/favicon.ico' | relative_url }}" rel="icon" />
+  <link
+    href="{{ 'assets/img/apple-touch-icon.png' | relative_url }}"
+    rel="apple-touch-icon"
+  />
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -18,17 +21,29 @@
   />
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link
-    href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
     rel="stylesheet"
+    href="{{ 'assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}"
   />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="{{ 'assets/vendor/bootstrap-icons/bootstrap-icons.css' | relative_url }}"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ 'assets/vendor/aos/aos.css' | relative_url }}"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ 'assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ 'assets/vendor/glightbox/css/glightbox.min.css' | relative_url }}"
+  />
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
 
   <!-- =======================================================
   * Template Name: Strategy
