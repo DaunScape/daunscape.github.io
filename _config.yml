@@ -3,11 +3,10 @@ title: DaunStore
 subtitle: by <strong>DaunScape</strong> 🍀
 email: store@daunscape.tech
 description: >- # this means to ignore newlines until "baseurl:"
-  Discover innovative strategies for impactful visual communication.
-  We transform ideas into compelling realities, ensuring your brand
-  stands out in a crowded marketplace. Our dedicated team leverages
-  cutting-edge techniques to deliver exceptional results that
-  resonate with your audience.
+  DaunStore is your trusted digital store, created by DaunScape
+  to deliver managed digital services tailored to your needs.
+  We offer a wide range of solutions to help you achieve your digital goals,
+  combining affordability with top-notch quality and dedicated support.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
