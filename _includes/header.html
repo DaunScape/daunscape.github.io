@@ -2,16 +2,21 @@
   <div
     class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
   >
-    <a href="{{ "/" | relative_url }}" class="logo d-flex align-items-center me-auto me-xl-0">
+    <a
+      href="{{ '/' | relative_url }}"
+      class="logo d-flex align-items-center me-auto me-xl-0"
+    >
       <img src="assets/img/DaunStore.png" alt="" />
       <!-- <h1 class="sitename">Strategy</h1> -->
     </a>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
+        {% for navigation in site.data.navigation %}
+        <li>
+          <a href="{{ navigation.link | base_url }}">{{ navigation.name }}</a>
+        </li>
+        {% endfor %}
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>
