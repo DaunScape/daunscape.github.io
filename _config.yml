@@ -1,10 +1,13 @@
 # Site settings
-title: Your awesome title
-email: your-email@example.com
+title: DaunStore
+subtitle: by <strong>DaunScape</strong> 🍀
+email: store@daunscape.tech
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Discover innovative strategies for impactful visual communication.
+  We transform ideas into compelling realities, ensuring your brand
+  stands out in a crowded marketplace. Our dedicated team leverages
+  cutting-edge techniques to deliver exceptional results that
+  resonate with your audience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -12,5 +15,5 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 sass:
   style: compressed
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
